@@ -1,0 +1,7 @@
+# Flatpak IDs installed from Flathub.
+org.libreoffice.LibreOffice
+org.zotero.Zotero
+net.ankiweb.Anki
+com.github.johnfactotum.Foliate
+org.mozilla.firefox
+com.opera.opera-gx

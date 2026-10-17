@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -euo pipefail
+if [[ "${EUID}" -eq 0 ]]; then
+  echo "Run this as your normal user; it will ask for sudo when needed." >&2
+  exit 1
+fi
+if ! command -v apt-get >/dev/null || ! grep -qi ubuntu /etc/os-release; then
+  echo "Ubuntu is required for this setup script." >&2
+  exit 1
+fi
+sudo apt-get update
+sudo apt-get install -y flatpak gnome-software gnome-software-plugin-flatpak dconf-cli
+
+wallpaper_path="$(dirname "$0")/study-os-wallpaper.svg"
+if [[ -f "$wallpaper_path" ]]; then
+  sudo install -m 0644 "$wallpaper_path" "/usr/share/backgrounds/study-os-wallpaper.svg"
+  gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/backgrounds/study-os-wallpaper.svg" || true
+  gsettings set org.gnome.desktop.background picture-uri-dark "file:///usr/share/backgrounds/study-os-wallpaper.svg" || true
+fi
+
+if ! flatpak remote-list --system | awk '{print $1}' | grep -qx flathub; then
+  sudo flatpak remote-add --system --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+fi
+sudo flatpak install --system --noninteractive flathub org.libreoffice.LibreOffice org.zotero.Zotero net.ankiweb.Anki com.github.johnfactotum.Foliate org.mozilla.firefox com.opera.opera-gx
+echo "Setup complete. Open Software to browse and update apps."
