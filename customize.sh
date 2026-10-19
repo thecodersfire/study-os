@@ -51,3 +51,6 @@ flatpak install --system --noninteractive flathub org.jabref.jabref com.github.x
 
 # Fifteen further purpose-specific applications
 flatpak install --system --noninteractive flathub org.kde.okular org.kde.kate org.kde.marknote org.kde.klevernotes com.github.flxzt.rnote org.kde.kclock org.kde.kbibtex org.kde.kontact org.kde.kalarm org.kde.kmymoney org.kde.kcalc org.kde.ark org.kde.dolphin io.github.flattool.Warehouse org.gnome.meld
+
+# Include Blender in the customized image.
+flatpak install --system --noninteractive flathub org.blender.Blender

@@ -26,4 +26,4 @@ This source repository contains no generated ISO or third-party binaries. Keep g
 See [FEATURES.md](FEATURES.md) for three local tools included for study and research, with office tools, reference management, flashcards, and ebook reading.
 
 
-The installer includes 43 purpose-specific applications beyond its core selection; the complete list is in [FEATURES.md](FEATURES.md).
+Blender is included in every setup, alongside the purpose-specific apps listed in [FEATURES.md](FEATURES.md).
