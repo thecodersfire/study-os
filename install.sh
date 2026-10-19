@@ -23,3 +23,7 @@ if ! flatpak remote-list --system | awk '{print $1}' | grep -qx flathub; then
 fi
 sudo flatpak install --system --noninteractive flathub org.libreoffice.LibreOffice org.zotero.Zotero net.ankiweb.Anki com.github.johnfactotum.Foliate org.mozilla.firefox com.opera.opera-gx
 echo "Setup complete. Open Software to browse and update apps."
+# Install this project's three purpose-specific local helper commands.
+mkdir -p "$HOME/.local/bin"
+install -m 0755 "$(dirname "$0")"/features/* "$HOME/.local/bin/"
+echo 'Purpose-specific helper commands are installed in ~/.local/bin.'

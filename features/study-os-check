@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ask(){ local answer; read -r -p "$1 [y/N] " answer; [[ "$answer" =~ ^[Yy]([Ee][Ss])?$ ]]; }
+echo 'Study-OS readiness checklist'
+ask 'Are claims linked to reliable sources?' || true
+ask 'Are quotes distinguished from your own notes?' || true
+ask 'Is the next study action clear?' || true
+echo 'Checklist complete. Answers were not saved or transmitted.'

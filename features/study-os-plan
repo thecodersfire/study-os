@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p "$HOME/Documents/study-os-session-plans"
+file="$HOME/Documents/study-os-session-plans/plan-$(date +%Y%m%d-%H%M%S).md"
+{
+ printf '# Study-OS session plan\n\n'
+ printf 'Created: %s\n\n' "$(date -Is)"
+ printf 'Purpose: study and research, with office tools, reference management, flashcards, and ebook reading\n\n## Prompts\n'
+ printf '%s\n' '- What question or topic are you studying?' '- What is one measurable learning goal?' '- Which sources or materials will you use?'
+ printf '\n## Notes\n'
+} > "$file"
+nano "$file"
+printf 'Saved locally: %s\n' "$file"

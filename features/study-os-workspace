@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+base="$HOME/Documents/study-os-workspace"
+mkdir -p "$base/Notes" "$base/Sources" "$base/Assignments"
+printf 'Workspace ready: %s\n' "$base"
