@@ -5,3 +5,8 @@ net.ankiweb.Anki
 com.github.johnfactotum.Foliate
 org.mozilla.firefox
 com.opera.opera-gx
+
+# Three additional preinstalled purpose-specific applications
+com.vscodium.codium
+org.gnome.Builder
+org.gnome.Maps

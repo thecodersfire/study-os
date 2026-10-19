@@ -25,3 +25,9 @@ This source repository contains no generated ISO or third-party binaries. Keep g
 
 See [FEATURES.md](FEATURES.md) for three local tools included for study and research, with office tools, reference management, flashcards, and ebook reading.
 
+
+The installer also includes three purpose-specific applications: **VSCodium, GNOME Builder, GNOME Maps**. See [FEATURES.md](FEATURES.md).
+
+The installer also includes three purpose-specific applications: **VSCodium, GNOME Builder, GNOME Maps**. See [FEATURES.md](FEATURES.md).
+
+The installer also includes three purpose-specific applications: **VSCodium, GNOME Builder, GNOME Maps**. See [FEATURES.md](FEATURES.md).
