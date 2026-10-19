@@ -26,4 +26,4 @@ This source repository contains no generated ISO or third-party binaries. Keep g
 See [FEATURES.md](FEATURES.md) for three local tools included for study and research, with office tools, reference management, flashcards, and ebook reading.
 
 
-The installer includes ten more applications selected for this distro's purpose. See [FEATURES.md](FEATURES.md) for the list.
+The installer includes fifteen additional purpose-specific applications; the complete list is in [FEATURES.md](FEATURES.md).

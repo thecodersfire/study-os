@@ -45,3 +45,6 @@ flatpak install --system --noninteractive flathub com.vscodium.codium org.gnome.
 
 # Ten additional purpose-specific applications
 flatpak install --system --noninteractive flathub com.calibre_ebook.calibre org.thonny.Thonny org.godotengine.Godot org.qgis.qgis org.gnome.Papers org.gnome.Calculator org.gnome.Calendar org.gnome.clocks org.gnome.Weather org.gnome.SimpleScan
+
+# Fifteen additional purpose-specific applications
+flatpak install --system --noninteractive flathub org.jabref.jabref com.github.xournalpp.xournalpp org.mozilla.Thunderbird org.gnome.Evolution org.gnome.gitg org.geogebra.GeoGebra org.stellarium.Stellarium org.kde.digikam org.gnome.Shotwell io.dbeaver.DBeaverCommunity org.musescore.MuseScore org.librecad.librecad org.gnome.TextEditor org.gnome.Contacts org.gnome.Boxes
