@@ -22,3 +22,20 @@ The installer adds these three Flathub applications for study and research, with
 3. **GNOME Maps** — org.gnome.Maps
 
 They are installed from Flathub during setup. The repository contains application IDs and documentation, not third-party binaries; each publisher’s terms and licenses apply.
+
+## Ten more purpose-specific preinstalled applications
+
+The setup installs these ten Flathub apps selected for study and research, with office tools, reference management, flashcards, and ebook reading:
+
+1. **Calibre** — organize ebooks and convert documents (com.calibre_ebook.calibre)
+2. **Thonny** — write and debug Python code (org.thonny.Thonny)
+3. **Godot Engine** — build and test 2D and 3D games (org.godotengine.Godot)
+4. **QGIS** — analyze geographic data and make maps (org.qgis.qgis)
+5. **GNOME Papers** — read project and reference PDFs (org.gnome.Papers)
+6. **GNOME Calculator** — perform scientific and financial calculations (org.gnome.Calculator)
+7. **GNOME Calendar** — schedule sessions, deadlines, and events (org.gnome.Calendar)
+8. **GNOME Clocks** — time work sessions and events (org.gnome.clocks)
+9. **GNOME Weather** — check local weather conditions (org.gnome.Weather)
+10. **Document Scanner** — digitize paper notes and forms (org.gnome.SimpleScan)
+
+Flathub distributes the app packages. Check each publisher license and terms. This repository contains app IDs and documentation, not third-party binaries.

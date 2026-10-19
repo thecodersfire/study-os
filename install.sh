@@ -30,3 +30,6 @@ echo 'Purpose-specific helper commands are installed in ~/.local/bin.'
 
 # Install the three additional purpose-specific applications selected in apps.txt.
 sudo flatpak install --system --noninteractive flathub com.vscodium.codium org.gnome.Builder org.gnome.Maps
+
+# Ten additional purpose-specific applications
+sudo flatpak install --system --noninteractive flathub com.calibre_ebook.calibre org.thonny.Thonny org.godotengine.Godot org.qgis.qgis org.gnome.Papers org.gnome.Calculator org.gnome.Calendar org.gnome.clocks org.gnome.Weather org.gnome.SimpleScan

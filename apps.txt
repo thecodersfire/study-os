@@ -6,7 +6,19 @@ com.github.johnfactotum.Foliate
 org.mozilla.firefox
 com.opera.opera-gx
 
-# Three additional preinstalled purpose-specific applications
+# Three previously added purpose-specific applications
 com.vscodium.codium
 org.gnome.Builder
 org.gnome.Maps
+
+# Ten additional preinstalled purpose-specific applications
+com.calibre_ebook.calibre
+org.thonny.Thonny
+org.godotengine.Godot
+org.qgis.qgis
+org.gnome.Papers
+org.gnome.Calculator
+org.gnome.Calendar
+org.gnome.clocks
+org.gnome.Weather
+org.gnome.SimpleScan

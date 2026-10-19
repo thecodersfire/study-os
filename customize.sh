@@ -42,3 +42,6 @@ apt-get clean
 rm -rf /var/lib/apt/lists/*
 # Additional purpose-specific applications installed into the customized image.
 flatpak install --system --noninteractive flathub com.vscodium.codium org.gnome.Builder org.gnome.Maps
+
+# Ten additional purpose-specific applications
+flatpak install --system --noninteractive flathub com.calibre_ebook.calibre org.thonny.Thonny org.godotengine.Godot org.qgis.qgis org.gnome.Papers org.gnome.Calculator org.gnome.Calendar org.gnome.clocks org.gnome.Weather org.gnome.SimpleScan
