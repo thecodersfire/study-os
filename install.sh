@@ -36,3 +36,6 @@ sudo flatpak install --system --noninteractive flathub com.calibre_ebook.calibre
 
 # Fifteen additional purpose-specific applications
 sudo flatpak install --system --noninteractive flathub org.jabref.jabref com.github.xournalpp.xournalpp org.mozilla.Thunderbird org.gnome.Evolution org.gnome.gitg org.geogebra.GeoGebra org.stellarium.Stellarium org.kde.digikam org.gnome.Shotwell io.dbeaver.DBeaverCommunity org.musescore.MuseScore org.librecad.librecad org.gnome.TextEditor org.gnome.Contacts org.gnome.Boxes
+
+# Fifteen further purpose-specific applications
+sudo flatpak install --system --noninteractive flathub org.kde.okular org.kde.kate org.kde.marknote org.kde.klevernotes com.github.flxzt.rnote org.kde.kclock org.kde.kbibtex org.kde.kontact org.kde.kalarm org.kde.kmymoney org.kde.kcalc org.kde.ark org.kde.dolphin io.github.flattool.Warehouse org.gnome.meld

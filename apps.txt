@@ -39,3 +39,20 @@ org.librecad.librecad
 org.gnome.TextEditor
 org.gnome.Contacts
 org.gnome.Boxes
+
+# Fifteen further preinstalled purpose-specific applications
+org.kde.okular
+org.kde.kate
+org.kde.marknote
+org.kde.klevernotes
+com.github.flxzt.rnote
+org.kde.kclock
+org.kde.kbibtex
+org.kde.kontact
+org.kde.kalarm
+org.kde.kmymoney
+org.kde.kcalc
+org.kde.ark
+org.kde.dolphin
+io.github.flattool.Warehouse
+org.gnome.meld

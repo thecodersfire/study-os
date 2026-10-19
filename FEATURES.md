@@ -61,3 +61,25 @@ These applications add tools suited to this setup focus. They are installed from
 15. **GNOME Boxes** (org.gnome.Boxes) — test workflows in virtual machines.
 
 Emulator frontends do not include game ROMs or copyrighted game files; supply only files you are legally allowed to use.
+
+## Fifteen further purpose-specific preinstalled applications
+
+This second batch adds another set of apps selected for this setup’s purpose. They are installed from Flathub by the setup scripts.
+
+1. **Okular** (org.kde.okular) — read, bookmark, and annotate technical drawings, reading lists, and reference PDFs.
+2. **Kate** (org.kde.kate) — edit configuration, code, notes, and structured project files.
+3. **Marknote** (org.kde.marknote) — keep structured Markdown notes and project notebooks.
+4. **KleverNotes** (org.kde.klevernotes) — capture and manage Markdown notes for projects and research.
+5. **Rnote** (com.github.flxzt.rnote) — sketch diagrams, write by hand, and annotate pictures or documents.
+6. **Clock** (org.kde.kclock) — set study, work, and routine timers with alarms and a stopwatch.
+7. **KBibTeX** (org.kde.kbibtex) — maintain BibTeX citations for research and technical writing.
+8. **Kontact** (org.kde.kontact) — organize email, calendars, contacts, and schedules in one workspace.
+9. **KAlarm** (org.kde.kalarm) — schedule reminders and recurring task alerts.
+10. **KMyMoney** (org.kde.kmymoney) — track household or small-business accounts, categories, and budgets.
+11. **KCalc** (org.kde.kcalc) — run scientific and unit calculations for coursework or technical work.
+12. **Ark** (org.kde.ark) — open and create common project archive files.
+13. **Dolphin** (org.kde.dolphin) — organize project assets and inspect folders.
+14. **Warehouse** (io.github.flattool.Warehouse) — review installed Flatpaks, manage versions, and clean app data.
+15. **Meld** (org.gnome.meld) — compare and merge source files, folders, and Git changes.
+
+Game frontends do not include proprietary game data; add only games or files you are allowed to use.
