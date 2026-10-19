@@ -57,3 +57,20 @@ org.kde.dolphin
 io.github.flattool.Warehouse
 org.gnome.meld
 org.blender.Blender
+
+# Fifteen further purpose-specific applications
+org.kde.khangman
+org.kde.kbruch
+org.kde.kalzium
+org.kde.kalgebra
+org.kde.kig
+org.kde.kturtle
+org.kde.kanagram
+org.kde.kwordquiz
+org.kde.kiten
+org.kde.parley
+org.kde.artikulate
+org.kde.kgeography
+org.kde.kstars
+org.kde.gcompris
+org.kde.minuet

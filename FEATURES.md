@@ -87,3 +87,23 @@ Game frontends do not include proprietary game data; add only games or files you
 ## Blender included in every setup
 
 Blender (org.blender.Blender) is included in every setup for 3D modeling, animation, rendering, and video editing. Installers fetch it from Flathub; Blender’s own license and terms apply.
+
+## Fifteen additional purpose-specific applications
+
+The setup adds these Flathub applications for study and research, with office tools, reference management, flashcards, and ebook reading. Applications are fetched from Flathub by the setup script; each app keeps its own licensing and terms.
+
+1. **KHangMan** (org.kde.khangman) — Word and spelling practice through short word games.
+2. **KBruch** (org.kde.kbruch) — Fraction, percentage, and arithmetic practice with feedback.
+3. **Kalzium** (org.kde.kalzium) — Periodic table, element facts, molecule tools, and chemistry reference.
+4. **KAlgebra** (org.kde.kalgebra) — Symbolic calculations plus 2D and 3D graphing.
+5. **Kig** (org.kde.kig) — Construct and explore interactive geometric figures.
+6. **KTurtle** (org.kde.kturtle) — Learn programming concepts by controlling a turtle with Logo.
+7. **Kanagram** (org.kde.kanagram) — Build vocabulary with timed anagram puzzles.
+8. **KWordQuiz** (org.kde.kwordquiz) — Create and practice subject flashcards and word lists.
+9. **Kiten** (org.kde.kiten) — Japanese dictionary and vocabulary study.
+10. **Parley** (org.kde.parley) — Practice vocabulary with spaced repetition exercises.
+11. **Artikulate** (org.kde.artikulate) — Pronunciation exercises using language recordings.
+12. **KGeography** (org.kde.kgeography) — Practice place and map recognition.
+13. **KStars** (org.kde.kstars) — Explore astronomy data and sky observations.
+14. **GCompris** (org.kde.gcompris) — Child-friendly activities for early learning and logic.
+15. **Minuet** (org.kde.minuet) — Practice musical intervals, chords, and ear training.
